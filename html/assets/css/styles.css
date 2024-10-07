@@ -88,6 +88,27 @@ body {
     color: #007BFF;
 }
 
+/* 로그인 환영 메시지 박스 스타일 */
+.welcome-box {
+    background-color: #f0f8ff;
+    border: 1px solid #007BFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #007BFF;
+}
+
+.welcome-box strong {
+    color: #000;
+}
+
+/* 로그인 폼과 하위 항목 사이 간격 */
+.sidebar form {
+    margin-bottom: 20px;
+}
+
 /* 메인 콘텐츠 스타일 */
 main {
     flex-grow: 1;  /* 메인 콘텐츠가 남은 공간을 모두 차지 */
